@@ -17,17 +17,17 @@ The dataset consists of:
 
 - ##  **Key Steps in the Notebook**
 
-### 1**Data Loading**
+### 1 **Data Loading**
 - Read flight data from `Data_Train.xlsx` and `Test_set.xlsx`.
 - Merge datasets for a unified analysis.
 
-### 2️**Data Preprocessing**
+### 2️ **Data Preprocessing**
 - Convert `Date_of_Journey` into `Date`, `Month`, and `Year`.
 - Extract `Departure Hour` and `Departure Minute` from `Dep_Time`.
 - Extract `Arrival Hour` and `Arrival Minute` from `Arrival_Time`.
 - Drop redundant columns after feature extraction.
 
-### 3️**Feature Engineering**
+### 3️ **Feature Engineering**
 - Map categorical values in `Total_Stops` to numeric values.
 - Extract `Duration Hours` from `Duration` column.
 
