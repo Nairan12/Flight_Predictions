@@ -15,7 +15,7 @@ The dataset consists of:
 - Extract useful features from date and time columns.
 - Map categorical variables to numerical values.
 
-- ##  **Key Steps in the Notebook**
+##  **Key Steps in the Notebook**
 
 ### 1 **Data Loading**
 - Read flight data from `Data_Train.xlsx` and `Test_set.xlsx`.
